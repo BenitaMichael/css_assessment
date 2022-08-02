@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#c0c0c0, #fff);
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
