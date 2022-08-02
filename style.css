@@ -5,10 +5,23 @@
 body{
     background-image: linear-gradient(#c0c0c0, #fff);
     background-repeat: no-repeat;
+    height:100vh;
 }
 
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10%;
+}
+
+h1{
+    margin:60px;
+    color:#0197f6;
+    font-size: 60px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p{
+    font-size: 1.5rem;
 }
