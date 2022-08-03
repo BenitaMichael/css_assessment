@@ -13,28 +13,16 @@ body{
 .container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 0 12%;
 }
 
-
-h1{
-    color:#0197f6;
-    font-size: 60px;
-    font-family: 'Roboto', sans-serif;;
-    margin-bottom: 0;
+.text{
+    margin-top: 15%;
 }
 
-.linka, .linkp{
-    font-size: 18px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.linkp{
-    font-weight: 600;
-    text-decoration: none;
-    color: #111;
+img{
+    width:400px;
+    margin:0 100px 0 0;
 }
 
 p{
@@ -44,7 +32,16 @@ p{
 }
 
 .other{
-    margin: 10% 0 0 10%;
+    margin: 12% 5% 0 10%;
+}
+
+form{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width:400px;
+    height:340px;
+    background-color: #fff;
 }
 
 input[type=text], [type=password]{
@@ -56,14 +53,6 @@ input[type=text], [type=password]{
     border: 1px solid #ccc;
 }
 
-form{
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    width:400px;
-    height:340px;
-    background-color: #fff;
-}
 input[type=button]{
     color:white;
     background-color: #0197f6;
@@ -97,4 +86,15 @@ button{
     border-radius: 5px;
     border: none;
      cursor: pointer;
+}
+.linka, .linkp{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.linkp{
+    font-weight: 600;
+    text-decoration: none;
+    color: #111;
 }
