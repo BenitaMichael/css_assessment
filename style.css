@@ -8,6 +8,7 @@ body{
     height:100vh;
     line-height: 1.2;
     letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -63,6 +64,7 @@ input[type=button]{
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    margin: 10px auto;
 }
 .link{
     margin: 0 0 0 28%;
@@ -97,4 +99,32 @@ button{
     font-weight: 600;
     text-decoration: none;
     color: #111;
+}
+
+
+@media only screen and (max-width:500px){
+
+    body{
+        overflow: hidden;
+    }
+    .container{
+        display:block;
+    }
+
+    img{
+        width:300px
+    }
+
+    p{
+        text-align: center;
+        font-size: 20px;;
+    }
+
+    .other{
+        margin:15% -10% 0 -10%;
+        height: 300px;
+    }
+    .link{
+       margin:auto;
+    }
 }
