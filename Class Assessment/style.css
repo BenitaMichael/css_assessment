@@ -1,0 +1,30 @@
+.navbar-brand{
+    font-weight: bold;
+    margin-right: 5%;
+}
+section{
+    margin-top: 5%;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+}
+
+.text{
+    margin-top: 5%;
+}
+img{
+    width:35%;
+    height:55%;
+}
+
+a img{
+    width:30px
+}
+button{
+    border-radius: 10px;
+}
