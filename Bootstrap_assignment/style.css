@@ -1,0 +1,19 @@
+input[type=email]{
+    width:600px;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+img{
+    width:65%;
+    height:65%;
+    margin-left:17%;
+}
+footer{
+    margin-top: 12%;
+}
+a img{
+    width: 40px;
+    height:30px;
+}
